@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "cascadiamono";
+  src: url(../fonts/CascadiaMono-VariableFont_wght.woff);
+}
+
+@font-face {
+  font-family: "cascadia-italic";
+  src: url(../fonts/CascadiaMono-Italic-VariableFont_wght.woff);
+}
+
+@font-face {
+  font-family: "lora";
+  src: url(../fonts/Lora-VariableFont_wght.woff);
+}
+
+@font-face {
+  font-family: "loraitalic";
+  src: url(../fonts/Lora-Italic-VariableFont_wght.woff);
+}
+
+@font-face {
+  font-family: "codepro";
+  src: url(/fonts/SourceCodePro-VariableFont_wght.woff);
+}
+
+h1 {
+  font-family: "cascadiamono", monospace;
+  font-size: clamp(1.2rem, 5vw, 7rem);
+}
+
+@media (width >= 800px) {
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px;
+  }
+}
+main {
+  padding: 2rem;
+}
+
+.intro {
+  font-family: "cascadiamono";
+  color: white;
+}
+
+body {
+  background-color: #701cad;
+}
+
+h2 {
+  font-family: "cascadiamono";
+  color: white;
+}
+
+.intro-info {
+  color: white;
+  font-family: "cascadiamono";
+}
+
+.intro-tidslinje {
+  color: white;
+  font-family: "cascadiamono";
+}
+
+nav ul {
+  font-family: "cascadiamono";
+  font-size: 1rem;
+  display: flex;
+  gap: 7rem;
+  color: white;
+}
+
+p {
+  font-family: "cascadiamono";
+}
+
+h3 {
+  font-family: "cascadiamono";
+
+  font-weight: bold;
+}
+
+summary {
+  font-family: "cascadiamono";
+
+  font-weight: bolder;
+}
+
+.info {
+  font-family: "lora";
+  line-height: 1.7;
+}
+
+a {
+  color: white;
+}
+
+.stat {
+  font-family: "codepro";
+  font-weight: bolder;
+}
+
+.stat:hover {
+  scale: 1.07;
+  transition: 0.5s;
+  border: 5px solid #e70ae0;
+}
