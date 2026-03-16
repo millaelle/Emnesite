@@ -40,7 +40,7 @@ main {
 }
 
 .intro {
-  font-family: "cascadiamono";
+  font-family: "cascadiamono", serif;
   color: white;
 }
 
@@ -49,22 +49,22 @@ body {
 }
 
 h2 {
-  font-family: "cascadiamono";
+  font-family: "cascadiamono", sans-serif;
   color: white;
 }
 
 .intro-info {
   color: white;
-  font-family: "cascadiamono";
+  font-family: "cascadiamono", serif;
 }
 
 .intro-tidslinje {
   color: white;
-  font-family: "cascadiamono";
+  font-family: "cascadiamono", serif;
 }
 
 nav ul {
-  font-family: "cascadiamono";
+  font-family: "cascadiamono", sans-serif;
   font-size: 1rem;
   display: flex;
   gap: 7rem;
@@ -72,17 +72,17 @@ nav ul {
 }
 
 p {
-  font-family: "cascadiamono";
+  font-family: "cascadiamono", serif;
 }
 
 h3 {
-  font-family: "cascadiamono";
+  font-family: "cascadiamono", serif;
 
   font-weight: bold;
 }
 
 summary {
-  font-family: "cascadiamono";
+  font-family: "cascadiamono", sans-serif;
 
   font-weight: bolder;
 }
@@ -97,7 +97,7 @@ a {
 }
 
 .stat {
-  font-family: "codepro";
+  font-family: "codepro", sans-serif;
   font-weight: bolder;
 }
 
